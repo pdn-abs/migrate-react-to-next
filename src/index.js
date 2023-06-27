@@ -1,5 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import ReactDOM from 'react-dom';
+'use client'
+
+import { useEffect, useState } from 'react';
+
 import updateContext from '@laufire/resist';
 import './index.css';
 import App from './App';
@@ -14,7 +16,4 @@ const Entry = () => {
 	return App(context);
 };
 
-ReactDOM.render(<React.StrictMode>
-	<Entry/>
-</React.StrictMode>,
-document.getElementById('root'));
+export default Entry;

@@ -1,8 +1,8 @@
 
 import Image from "next/image";
-import App from "../App"  
+import Entry from "../../src";
 
 const Main=()=>
-<App />
+<Entry />
   
 export default Main;
